@@ -1,4 +1,11 @@
 import styles from "./HomePage.module.css";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedin,
+  FaFontAwesome,
+} from "react-icons/fa";
 import ImageComponent from "../components/ImageComponents";
 import "./temp.css"
 const HomePage = () => {
@@ -28,15 +35,15 @@ const HomePage = () => {
         src="/istockphoto1180581523612x612removebgpreview-1@2x.png"
       />
       <b className={styles.plantsMakeAContainer}>
-        <p className={styles.plantsMakeA}>{`Plants make a positive impact `}</p>
-        <p className={styles.plantsMakeA}>on your environment.</p>
+        <p className={styles.plantsMakeA}>{`Nature is not a place to visit, `}</p>
+        <p className={styles.plantsMakeA}>It is a Home.</p>
       </b>
-      <div className={styles.homePageChild2} />
-      <b className={styles.knowMore}>Know More</b>
-      <img className={styles.lineIcon} alt="" src="/line-1.svg" />
+      {/* <div className={styles.homePageChild2} /> */}
+      {/* <b className={styles.knowMore}>Know More</b> */}
+      {/* <img className={styles.lineIcon} alt="" src="/line-1.svg" /> */}
       <div className={styles.mainTab}>
         <div className={styles.homeParent}>
-          <div className={styles.home}><button class="transparent-button">Home</button></div>
+          <div className={styles.home}><button class="transparent-button" ><a href="https://www.w3schools.com"/>Home</button></div>
           <div className={styles.history}><button class="transparent-button">History</button></div>
           <div className={styles.about}><button class="transparent-button">About</button></div>
           <div className={styles.about}><button class="transparent-button">Contact</button></div>
@@ -49,13 +56,10 @@ const HomePage = () => {
           <img className={styles.vectorIcon} alt="" src="/vector.svg" />
         </div>
       </div>
-      <img
-        className={styles.instagramCircleIcon}
-        alt=""
-        src="/instagram-circle@2x.png"
-      />
-      <img className={styles.facebookIcon} alt="" src="/facebook@2x.png" />
-      <img className={styles.twitterIcon} alt="" src="/twitter@2x.png" />
+     
+      {/* <img className={styles.facebookIcon} alt="" src="/facebook@2x.png" /> */}
+     
+
     </div>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">

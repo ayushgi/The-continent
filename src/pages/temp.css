@@ -1,3 +1,25 @@
+
+*{
+ 
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins',sans-serif;
+
+}
+:root{
+  --bg-color:#1f242d;
+  --second-bg-color:#323946;
+  --text-color:#fff;
+  /* --main-color: #0ef; */
+  --main-color:#00afff
+}
+
+
+
+
 #first{
     /* width: 25rem; */
     height: 28rem;
