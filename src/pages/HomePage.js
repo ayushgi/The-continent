@@ -36,10 +36,10 @@ const HomePage = () => {
       <img className={styles.lineIcon} alt="" src="/line-1.svg" />
       <div className={styles.mainTab}>
         <div className={styles.homeParent}>
-          <div className={styles.home}>Home</div>
-          <div className={styles.history}>HISTORY</div>
-          <div className={styles.about}>about</div>
-          <div className={styles.about}>contact</div>
+          <div className={styles.home}><button class="transparent-button">Home</button></div>
+          <div className={styles.history}><button class="transparent-button">History</button></div>
+          <div className={styles.about}><button class="transparent-button">About</button></div>
+          <div className={styles.about}><button class="transparent-button">Contact</button></div>
         </div>
         <div className={styles.nature}>n.a.t.u.r.e</div>
         <div className={styles.frameParent}>

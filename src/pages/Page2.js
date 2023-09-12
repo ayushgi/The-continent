@@ -27,10 +27,10 @@ const Page2 = () => {
       <div className={styles.medPlant}>M.E.D P.L.A.N.T</div>
       <img className={styles.vectorIcon} alt="" src="/vector1.svg" />
       <div className={styles.homeParent}>
-        <div className={styles.home}>Home</div>
-        <div className={styles.history}>HISTORY</div>
-        <div className={styles.about}>about</div>
-        <div className={styles.about}>contact</div>
+        <div className={styles.home}><button>Home</button></div>
+        <div className={styles.history}><button>History</button></div>
+        <div className={styles.about}><button>About</button></div>
+        <div className={styles.about}><button>Contact</button></div>
       </div>
       <img className={styles.vectorIcon1} alt="" src="/vector2.svg" />
       <div className={styles.rectangleParent}>

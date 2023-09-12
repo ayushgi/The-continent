@@ -245,3 +245,8 @@
   /* width: 25rem; */
   height: 28rem;
 }
+.transparent-button {
+  background-color: transparent;
+  border: none;
+  color: your-text-color; /* Set the text color you want */
+}
