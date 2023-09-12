@@ -1,33 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
-/* src/index.css */
-@import 'bootstrap/dist/css/bootstrap.min.css';
-/* Your other CSS rules here */
-
-body {
-  margin: 0;
-  line-height: normal;
-}
-:root {
-  /* fonts */
-  --font-poppins: Poppins;
-  --font-nunito: Nunito;
-  --font-roboto: Roboto;
-
-  /* font sizes */
-  --font-size-11xl: 1.88rem;
-  --font-size-6xl: 1.56rem;
-  --font-size-29xl: 3rem;
-
-  /* Colors */
-  --color-white: #fff;
-  --color-darkgreen: #377006;
-  --color-gray: #101010;
-  --color-sandybrown: rgba(249, 183, 93, 0.5);
-  --color-seagreen: rgba(49, 129, 98, 0.5);
-  --color-gainsboro: #d9d9d9;
-
-  /* Border radiuses */
-  --br-31xl: 50px;
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
